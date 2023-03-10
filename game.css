@@ -1,0 +1,50 @@
+.choice-container{
+    display: flex;
+    background: white;
+    margin-bottom: 0.5rem;
+    font-size: 1.8rem;
+    border: 0.1rem solid rgb(75, 75, 224);
+    width: 100%;
+}
+.choice-prefix{
+    padding: 1.2rem 2.2rem;
+    background: rgb(92, 92, 207);
+    color: white;
+}
+.choice-text{
+    padding: 1.5rem;
+}
+.choice-container:hover{
+    cursor: pointer;
+    transform: translateY(-0.1rem);
+    transition: transform 150ms;
+    box-shadow: 0 0.4rem 1.4rem 0 rgb(164, 221, 240);
+}
+.correct{
+    background: rgb(67, 185, 67);
+}
+.incorrect{
+    background: rgb(206, 54, 54);
+}
+#hud{
+    display: flex;
+    justify-content: space-between;
+}
+.hud-prefix{
+    text-align: center;
+    font-size: 2rem;
+}
+.hud-main{
+    text-align: center;
+}
+#progressbar{
+    margin-top: 8px;
+    width: 20rem;
+    height: 4rem;
+    border: 0.3rem solid blue;
+}
+#progress-bar-full{
+    height: 4rem;
+    background: blue;
+    width: 0%;
+}
